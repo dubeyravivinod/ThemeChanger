@@ -1,5 +1,5 @@
 import React from 'react'
-import './mainDiv.css'
+import './MainDiv.css'
 const MainDiv = ({lightTheme,darkTheme}) => {
     const spanStyle={
         color:(lightTheme==true)? "white":"black"
